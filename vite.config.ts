@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/ecto-ecommerce/'
+  base: '/ecto-ecommerce/',
   server: {
     host: "::",
     port: 8080,
