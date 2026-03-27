@@ -14,7 +14,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/ecto-ecommerce">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/produto/:id" element={<ProductPage />} />
