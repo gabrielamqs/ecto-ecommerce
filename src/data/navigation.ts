@@ -30,7 +30,7 @@ export const navigationData: NavItem[] = [
     label: "Calçados & Acessórios",
     href: "/calcados-acessorios",
     children: [
-      { label: "Sapatos (Pequenos)", href: "/calcados-acessorios/sapatos" },
+      { label: "Sapatos", href: "/calcados-acessorios/sapatos" },
       { label: "Bolsas", href: "/calcados-acessorios/bolsas" },
       { label: "Cintos (Ajustáveis)", href: "/calcados-acessorios/cintos" },
       { label: "Bijuterias", href: "/calcados-acessorios/bijuterias" },

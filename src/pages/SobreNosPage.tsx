@@ -12,10 +12,10 @@ const SobreNosPage = () => (
 
       <div className="space-y-8 font-body text-sm text-foreground/80 leading-relaxed">
         <p>
-          A Ecto nasceu de uma frustração real: a dificuldade de encontrar roupas que 
-          realmente vestissem bem em corpos magros e de estrutura pequena. Cansadas de 
-          ajustar na costureira cada peça comprada, decidimos criar uma marca que resolvesse 
-          esse problema de vez.
+          A Ecto nasceu de uma frustração real: a dificuldade de encontrar roupas para adultos, 
+          que realmente vestissem bem em corpos magros e de estrutura pequena. Cansadas de 
+          ajustar na costureira cada peça comprada, ou ter que ir à seção infantil para procurar 
+          peças com nossa numeração, decidimos criar uma marca que resolvesse esse problema de vez.
         </p>
 
         <div>

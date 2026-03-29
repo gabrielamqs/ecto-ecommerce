@@ -3,7 +3,7 @@ import Footer from "@/components/layout/Footer";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const faqs = [
-  { q: "Quais tamanhos a Ecto oferece?", a: "Trabalhamos especialmente com tamanhos P, PP, PPP em roupas. Nossa modelagem é desenvolvida especificamente para corpos magros e de estrutura pequena." },
+  { q: "Quais tamanhos a Ecto oferece?", a: "Trabalhamos especialmente com tamanhos P, PP, PPP em roupas. Nossa modelagem é desenvolvida especialmente para corpos magros, altos ou pequenos." },
   { q: "Como sei qual é o meu tamanho?", a: "Utilize nosso Guia de Tamanhos com tabela de medidas detalhada, ou experimente o FitCheck na página de cada produto — basta inserir suas medidas e receber a recomendação de tamanho ideal." },
   { q: "Posso trocar se o tamanho não servir?", a: "Sim! Você tem 30 dias para solicitar a troca gratuitamente. Basta acessar Meus Pedidos ou entrar em contato com nosso atendimento." },
   { q: "Qual o prazo de entrega?", a: "O prazo varia de 3 a 10 dias úteis, dependendo da sua localização. Compras acima de R$ 80,00 possuem frete grátis para todo o Brasil." },
