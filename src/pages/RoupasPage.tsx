@@ -14,7 +14,7 @@ const RoupasPage = () => {
       <section className="container py-12 md:py-20">
         <h1 className="font-display text-3xl md:text-4xl font-medium mb-2">Roupas</h1>
         <p className="font-body text-sm text-muted-foreground mb-10">
-          Peças com modelagem exclusiva para tamanhos PP, 32 e 34.
+          Peças com modelagem voltada para tamanhos P, PP, PPP, 32 e 34.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
           {clothingProducts.map((product) => (

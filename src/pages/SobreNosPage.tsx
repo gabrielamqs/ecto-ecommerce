@@ -21,8 +21,8 @@ const SobreNosPage = () => (
         <div>
           <h2 className="font-display text-xl font-medium text-foreground mb-3">Nossa Missão</h2>
           <p>
-            Oferecer moda adulta, sofisticada e acessível com modelagem exclusiva para 
-            tamanhos PP, 32 e 34. Acreditamos que todas as mulheres merecem roupas com 
+            Oferecer moda adulta, sofisticada e acessível ao tamanho ideal do cliente, com modelagem exclusiva para 
+            tamanhos P, PP, PPP, 32 e 34. Acreditamos que todas as mulheres merecem roupas com 
             caimento perfeito — sem precisar de ajustes.
           </p>
         </div>

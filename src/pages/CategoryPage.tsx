@@ -10,7 +10,7 @@ const categoryInfo: Record<string, { title: string; description: string }> = {
   "calcas-jeans": { title: "Calças & Jeans", description: "Calças com a modelagem Ecto Fit — caimento perfeito na cintura e no quadril." },
   "saias-shorts": { title: "Saias & Shorts", description: "Saias e shorts com comprimento e cintura proporcionais ao seu corpo." },
   "casacos-jaquetas": { title: "Casacos & Jaquetas", description: "Peças de inverno que não ficam sobrando nos ombros." },
-  conjuntos: { title: "Conjuntos", description: "Looks completos com proporções pensadas para tamanhos PP, 32 e 34." },
+  conjuntos: { title: "Conjuntos", description: "Looks completos com proporções pensadas para tamanhos P, PP, PPP, 32 e 34." },
 };
 
 const CategoryPage = () => {
@@ -26,7 +26,7 @@ const CategoryPage = () => {
           {info?.title ?? "Roupas"}
         </h1>
         <p className="font-body text-sm text-muted-foreground mb-10">
-          {info?.description ?? "Peças com modelagem exclusiva para tamanhos PP, 32 e 34."}
+          {info?.description ?? "Peças voltadas para tamanhos P, PP, PPP, 32 e 34."}
         </p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
           {products.length > 0 ? (

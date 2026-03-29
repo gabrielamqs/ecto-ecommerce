@@ -40,7 +40,7 @@ export const navigationData: NavItem[] = [
     label: "Atendimento",
     href: "/atendimento",
     children: [
-      { label: "Guia de Tamanhos (PP, 32, 34)", href: "/atendimento/guia-tamanhos" },
+      { label: "Guia de Tamanhos", href: "/atendimento/guia-tamanhos" },
       { label: "FAQ", href: "/atendimento/faq" },
       { label: "Fale Conosco", href: "/atendimento/contato" },
       { label: "Trocas & Devoluções", href: "/atendimento/trocas-devolucoes" },

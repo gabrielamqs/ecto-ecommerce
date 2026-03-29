@@ -26,11 +26,10 @@ const Index = () => {
                 Coleção Outono/Inverno 2026
               </p>
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-medium leading-[1.1] mb-6">
-                Feito para o<br />seu corpo
+                Sem ajustes, <br /> Sem frustração <br />Sem estresse
               </h1>
               <p className="font-body text-sm text-muted-foreground leading-relaxed mb-8 max-w-sm">
-                Roupas desenhadas com modelagem exclusiva para tamanhos PP, 32 e 34. 
-                Caimento perfeito, sem ajustes.
+                Roupas desenhadas exclusivamente para você. <br /> Confira agora!
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <Link to="/roupas" className="btn-cta inline-flex items-center justify-center gap-2">
@@ -99,9 +98,9 @@ const Index = () => {
       <section className="bg-surface py-12 border-y border-border">
         <div className="container grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
           {[
-            { title: "Modelagem Exclusiva", desc: "Para tamanhos PP, 32 e 34" },
+            { title: "Modelagem Exclusiva", desc: "Focado no seu tamanho" },
             { title: "FitCheck", desc: "Descubra seu tamanho ideal" },
-            { title: "Frete Grátis", desc: "Acima de R$ 299" },
+            { title: "Frete Grátis", desc: "Acima de R$ 80,00" },
             { title: "Troca Fácil", desc: "30 dias para trocar" },
           ].map((item) => (
             <div key={item.title}>
